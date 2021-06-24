@@ -1,6 +1,8 @@
 package de.karottenboy33.achievmentsystem;
 
+import de.karottenboy33.achievmentsystem.commands.Achievment;
 import de.karottenboy33.achievmentsystem.commands.AdminAchievmentCommand;
+import de.karottenboy33.achievmentsystem.listeners.ClickHandelEvent;
 import de.karottenboy33.achievmentsystem.listeners.PlayerJoinEvent;
 import de.karottenboy33.achievmentsystem.mysql.MySQL;
 import de.karottenboy33.achievmentsystem.mysql.MySQLCreate;
@@ -28,6 +30,8 @@ public final class AchievmentSystem extends JavaPlugin {
         MySQLCreate.connect();
         MySQLCreate.createsTable();
         getCommand("AdminAchievment").setExecutor(new AdminAchievmentCommand());
+        getCommand("Achievment").setExecutor(new Achievment());
+        Bukkit.getPluginManager().registerEvents(new ClickHandelEvent(), this);
         Bukkit.getPluginManager().registerEvents(new PlayerJoinEvent(), this);
         // Plugin startup logic
 

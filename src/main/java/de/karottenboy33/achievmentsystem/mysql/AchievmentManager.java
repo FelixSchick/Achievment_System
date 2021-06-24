@@ -2,9 +2,11 @@ package de.karottenboy33.achievmentsystem.mysql;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
+import javax.swing.plaf.basic.BasicButtonUI;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -77,10 +79,11 @@ public class AchievmentManager {
         if (amount >= 0){
             ResultSet set = MySQL.getInstance().executeQuery("UPDATE `achievment` SET `block`=? WHERE uuid=?", new HashMap<Integer, String>(){
                 {
-                    if (amount > 0){
+                    if (amount <= 3){
                         put(1, String.valueOf(amount));
                         put(2, uuid.toString());
                     }
+
                 }
             });
             player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent("§bDu hast das Achievment §2Block Breaking §blevel §2" + (amount)+ " §bFreigeschaltet."));
@@ -90,10 +93,8 @@ public class AchievmentManager {
         if (amount >= 0){
             ResultSet set = MySQL.getInstance().executeQuery("UPDATE `achievment` SET `blockbreake`=? WHERE uuid=?", new HashMap<Integer, String>(){
                 {
-                    if (amount > 0){
-                        put(1, String.valueOf(amount));
-                        put(2, uuid.toString());
-                    }
+                    put(1, String.valueOf(amount));
+                    put(2, uuid.toString());
                 }
             });
         }
@@ -114,12 +115,21 @@ public class AchievmentManager {
 
     public static void addBlockBreak(UUID uuid, int amount){
         int have = getBlockBreake(uuid);
-
+        Player player = Bukkit.getPlayer(uuid);
             ResultSet set = MySQL.getInstance().executeQuery("UPDATE `achievment` SET `blockbreake`=? WHERE uuid=?", new HashMap<Integer, String>(){
                 {
                     put(1, String.valueOf(have + amount));
                     put(2, uuid.toString());
                 }});
+        if (getBlockBreake(uuid) >= 500 && getBlockAchiev(uuid) == 0)  {
+            setBlockAchiev(player, uuid, 1);
+        }
+        if (getBlockBreake(uuid) >= 5000 && getBlockAchiev(uuid) == 1)  {
+            setBlockAchiev(player, uuid, 2);
+        }
+        if (getBlockBreake(uuid) >= 35000 && getBlockAchiev(uuid) == 2)  {
+            setBlockAchiev(player, uuid, 3);
+        }
 
     }
 }
