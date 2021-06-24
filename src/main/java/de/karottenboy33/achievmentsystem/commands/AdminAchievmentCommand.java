@@ -26,11 +26,19 @@ public class AdminAchievmentCommand implements CommandExecutor, TabCompleter {
                             int numberInPut = Integer.parseInt(args[3]);
                             AchievmentManager.setBlockAchiev(target, target.getUniqueId(), numberInPut);
                         }
+                        if (args[2].equals("BlockBreake")){
+                            int numberInPut = Integer.parseInt(args[3]);
+                            AchievmentManager.setBlockBreake(target.getUniqueId(), numberInPut);
+                        }
                     }
                     if (args[0].equals("add")){
                         if (args[2].equals("Block")){
                             int numberInPut = Integer.parseInt(args[3]);
                             AchievmentManager.addBlockAchiev(target, target.getUniqueId(), numberInPut);
+                        }
+                        if (args[2].equals("BlockBreake")){
+                            int numberInPut = Integer.parseInt(args[3]);
+                            AchievmentManager.addBlockBreak(target.getUniqueId(), numberInPut);
                         }
                     }
 
@@ -38,6 +46,7 @@ public class AdminAchievmentCommand implements CommandExecutor, TabCompleter {
                     if (args.length == 2 && args[0].equals("reset")){
                         Player target = Bukkit.getPlayer(args[1]);
                         AchievmentManager.setBlockAchiev(target, target.getUniqueId(), 0);
+                        AchievmentManager.setBlockBreake(target.getUniqueId(), 0);
                     }
                 }
             } else {
@@ -63,6 +72,7 @@ public class AdminAchievmentCommand implements CommandExecutor, TabCompleter {
                     List< String > complete = new ArrayList<>();
                     if (args[0].equals("reset")) return new ArrayList<>();
                     complete.add("Block");
+                    complete.add("BlockBreake");
                     return complete;
                 } else if (args.length == 4) {
                     if (args[0].equals("reset")) return new ArrayList<>();

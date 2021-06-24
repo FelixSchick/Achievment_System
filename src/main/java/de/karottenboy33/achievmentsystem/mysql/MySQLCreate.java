@@ -73,7 +73,7 @@ public class MySQLCreate {
     public static void createsTable() {
         try {
             Statement statement = con.createStatement();
-            statement.executeUpdate("CREATE TABLE IF NOT EXISTS achievment (uuid TEXT, block INT)");
+            statement.executeUpdate("CREATE TABLE IF NOT EXISTS achievment (uuid TEXT, block INT, blockbreake INT)");
             statement.close();
         } catch (SQLException throwables) {
             throwables.printStackTrace();

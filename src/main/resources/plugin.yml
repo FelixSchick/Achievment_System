@@ -1,7 +1,7 @@
 name: AchievmentSystem
 version: 1.0
 main: de.karottenboy33.achievmentsystem.AchievmentSystem
-api-version: 1.16.5
+api-version: 1.16
 authors: [ Karottenboy33 ]
 description: This is a Plugin for Custom Achievment
 commands:
