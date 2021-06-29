@@ -18,83 +18,83 @@ public class AchievBlockGUI {
         inventory.setItem(13, new itemBuilder(Material.GRASS_BLOCK).displayname("§7» §9Block Achievment").build());
         if (AchievmentManager.getBlockAchiev(player.getUniqueId()) == 0){
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 10){
-                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 10 Breaked Blocks ereicht").build());
+                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 10 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 10 Breaked Blocks").build());
+                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 10 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 50){
-                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 50 Breaked Blocks ereicht").build());
+                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 50 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 50 Breaked Blocks").build());
+                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 50 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 100){
-                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 100 Breaked Blocks ereicht").build());
+                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 100 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 100 Breaked Blocks").build());
+                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 100 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 250){
-                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 250 Breaked Blocks ereicht").build());
+                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 250 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 250 Breaked Blocks").build());
+                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 250 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 500){
-                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 500 Breaked Blocks ereicht").build());
+                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 500 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 500 Breaked Blocks").build());
+                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 500 Abgebaute Blöcke").build());
             }
         }
         if (AchievmentManager.getBlockAchiev(player.getUniqueId()) == 1){
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 1000){
-                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 1000 Breaked Blocks ereicht").build());
+                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 1000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 1000 Breaked Blocks").build());
+                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 1000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 2000){
-                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 2000 Breaked Blocks ereicht").build());
+                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 2000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 2000 Breaked Blocks").build());
+                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 2000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 3000){
-                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 3000 Breaked Blocks ereicht").build());
+                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 3000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 3000 Breaked Blocks").build());
+                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 3000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 4000){
-                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 4000 Breaked Blocks ereicht").build());
+                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 4000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 4000 Breaked Blocks").build());
+                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 4000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 5000){
-                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 5000 Breaked Blocks ereicht").build());
+                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 5000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 5000 Breaked Blocks").build());
+                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 5000 Abgebaute Blöcke").build());
             }
         }
         if (AchievmentManager.getBlockAchiev(player.getUniqueId()) == 2){
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 15000){
-                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 15000 Breaked Blocks ereicht").build());
+                inventory.setItem(29, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 15000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 15000 Breaked Blocks").build());
+                inventory.setItem(29, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 15000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 20000){
-                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 20000 Breaked Blocks ereicht").build());
+                inventory.setItem(30, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 20000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 20000 Breaked Blocks").build());
+                inventory.setItem(30, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 20000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 25000){
-                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 25000 Breaked Blocks ereicht").build());
+                inventory.setItem(31, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 25000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 25000 Breaked Blocks").build());
+                inventory.setItem(31, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 25000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 30000){
-                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 30000 Breaked Blocks ereicht").build());
+                inventory.setItem(32, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 30000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 30000 Breaked Blocks").build());
+                inventory.setItem(32, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 30000 Abgebaute Blöcke").build());
             }
             if (AchievmentManager.getBlockBreake(player.getUniqueId()) >= 35000){
-                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 35000 Breaked Blocks ereicht").build());
+                inventory.setItem(33, new itemBuilder(Material.LIME_STAINED_GLASS_PANE).displayname("§7» §9Du hast 35000 Abgebaute Blöcke ereicht").build());
             } else {
-                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Brauchst 35000 Breaked Blocks").build());
+                inventory.setItem(33, new itemBuilder(Material.BLACK_STAINED_GLASS_PANE).displayname("§7» §9Du Brauchst 35000 Abgebaute Blöcke").build());
             }
         }
         if (AchievmentManager.getBlockAchiev(player.getUniqueId()) == 3){
