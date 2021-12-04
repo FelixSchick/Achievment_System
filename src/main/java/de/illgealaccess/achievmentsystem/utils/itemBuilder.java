@@ -1,4 +1,4 @@
-package de.karottenboy33.achievmentsystem.utils;
+package de.illgealaccess.achievmentsystem.utils;
 
 import com.google.gson.Gson;
 import org.apache.commons.lang.Validate;

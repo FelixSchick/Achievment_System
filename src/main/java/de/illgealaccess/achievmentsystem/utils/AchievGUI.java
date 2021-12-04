@@ -1,4 +1,4 @@
-package de.karottenboy33.achievmentsystem.utils;
+package de.illgealaccess.achievmentsystem.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

@@ -1,6 +1,6 @@
-package de.karottenboy33.achievmentsystem.commands;
+package de.illgealaccess.achievmentsystem.commands;
 
-import de.karottenboy33.achievmentsystem.utils.AchievGUI;
+import de.illgealaccess.achievmentsystem.utils.AchievGUI;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.CommandExecutor;

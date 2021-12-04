@@ -1,11 +1,10 @@
-package de.karottenboy33.achievmentsystem;
+package de.illgealaccess.achievmentsystem;
 
-import de.karottenboy33.achievmentsystem.commands.Achievment;
-import de.karottenboy33.achievmentsystem.commands.AdminAchievmentCommand;
-import de.karottenboy33.achievmentsystem.listeners.ClickHandelEvent;
-import de.karottenboy33.achievmentsystem.listeners.PlayerJoinEvent;
-import de.karottenboy33.achievmentsystem.mysql.MySQL;
-import de.karottenboy33.achievmentsystem.mysql.MySQLCreate;
+import de.illgealaccess.achievmentsystem.commands.Achievment;
+import de.illgealaccess.achievmentsystem.commands.AdminAchievmentCommand;
+import de.illgealaccess.achievmentsystem.listeners.ClickHandelEvent;
+import de.illgealaccess.achievmentsystem.listeners.PlayerJoinEvent;
+import de.illgealaccess.achievmentsystem.mysql.MySQLCreate;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;

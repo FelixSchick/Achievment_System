@@ -1,12 +1,10 @@
-package de.karottenboy33.achievmentsystem.mysql;
+package de.illgealaccess.achievmentsystem.mysql;
 
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
-import javax.swing.plaf.basic.BasicButtonUI;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;

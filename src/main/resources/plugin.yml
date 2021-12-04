@@ -1,8 +1,8 @@
 name: AchievmentSystem
 version: 1.0
-main: de.karottenboy33.achievmentsystem.AchievmentSystem
+main: de.illegalaccess.achievmentsystem.AchievmentSystem
 api-version: 1.16
-authors: [ Karottenboy33 ]
+authors: [ IllegalAccess ]
 description: This is a Plugin for Custom Achievment
 commands:
   AdminAchievment:

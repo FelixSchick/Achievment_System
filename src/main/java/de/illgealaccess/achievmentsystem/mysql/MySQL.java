@@ -1,6 +1,6 @@
-package de.karottenboy33.achievmentsystem.mysql;
+package de.illgealaccess.achievmentsystem.mysql;
 
-import de.karottenboy33.achievmentsystem.AchievmentSystem;
+import de.illgealaccess.achievmentsystem.AchievmentSystem;
 import org.bukkit.configuration.file.FileConfiguration;
 
 import java.sql.*;

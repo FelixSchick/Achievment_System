@@ -1,6 +1,6 @@
-package de.karottenboy33.achievmentsystem.commands;
+package de.illgealaccess.achievmentsystem.commands;
 
-import de.karottenboy33.achievmentsystem.mysql.AchievmentManager;
+import de.illgealaccess.achievmentsystem.mysql.AchievmentManager;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

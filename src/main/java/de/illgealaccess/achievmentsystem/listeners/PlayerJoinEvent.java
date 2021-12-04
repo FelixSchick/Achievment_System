@@ -1,9 +1,6 @@
-package de.karottenboy33.achievmentsystem.listeners;
+package de.illgealaccess.achievmentsystem.listeners;
 
-import de.karottenboy33.achievmentsystem.AchievmentSystem;
-import de.karottenboy33.achievmentsystem.mysql.AchievmentManager;
-import net.md_5.bungee.api.ChatMessageType;
-import net.md_5.bungee.api.chat.TextComponent;
+import de.illgealaccess.achievmentsystem.mysql.AchievmentManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,6 +1,6 @@
-package de.karottenboy33.achievmentsystem.listeners;
+package de.illgealaccess.achievmentsystem.listeners;
 
-import de.karottenboy33.achievmentsystem.utils.AchievBlockGUI;
+import de.illgealaccess.achievmentsystem.utils.AchievBlockGUI;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
