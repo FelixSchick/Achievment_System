@@ -1,6 +1,6 @@
-package de.illgealaccess.achievmentsystem.utils;
+package de.illegalaccess.achievmentsystem.utils;
 
-import de.illgealaccess.achievmentsystem.mysql.AchievmentManager;
+import de.illegalaccess.achievmentsystem.mysql.AchievmentManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

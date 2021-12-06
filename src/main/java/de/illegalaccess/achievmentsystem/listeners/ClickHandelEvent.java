@@ -1,6 +1,6 @@
-package de.illgealaccess.achievmentsystem.listeners;
+package de.illegalaccess.achievmentsystem.listeners;
 
-import de.illgealaccess.achievmentsystem.utils.AchievBlockGUI;
+import de.illegalaccess.achievmentsystem.utils.AchievBlockGUI;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

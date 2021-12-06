@@ -1,4 +1,4 @@
-package de.illgealaccess.achievmentsystem.utils;
+package de.illegalaccess.achievmentsystem.utils;
 
 import com.google.gson.Gson;
 import org.apache.commons.lang.Validate;

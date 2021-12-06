@@ -1,6 +1,6 @@
-package de.illgealaccess.achievmentsystem.commands;
+package de.illegalaccess.achievmentsystem.commands;
 
-import de.illgealaccess.achievmentsystem.utils.AchievGUI;
+import de.illegalaccess.achievmentsystem.utils.AchievGUI;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.CommandExecutor;

@@ -1,4 +1,4 @@
-package de.illgealaccess.achievmentsystem.utils;
+package de.illegalaccess.achievmentsystem.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;

@@ -1,6 +1,6 @@
-package de.illgealaccess.achievmentsystem.listeners;
+package de.illegalaccess.achievmentsystem.listeners;
 
-import de.illgealaccess.achievmentsystem.mysql.AchievmentManager;
+import de.illegalaccess.achievmentsystem.mysql.AchievmentManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

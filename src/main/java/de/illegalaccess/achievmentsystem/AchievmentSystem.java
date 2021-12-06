@@ -1,10 +1,10 @@
-package de.illgealaccess.achievmentsystem;
+package de.illegalaccess.achievmentsystem;
 
-import de.illgealaccess.achievmentsystem.commands.Achievment;
-import de.illgealaccess.achievmentsystem.commands.AdminAchievmentCommand;
-import de.illgealaccess.achievmentsystem.listeners.ClickHandelEvent;
-import de.illgealaccess.achievmentsystem.listeners.PlayerJoinEvent;
-import de.illgealaccess.achievmentsystem.mysql.MySQLCreate;
+import de.illegalaccess.achievmentsystem.commands.Achievment;
+import de.illegalaccess.achievmentsystem.commands.AdminAchievmentCommand;
+import de.illegalaccess.achievmentsystem.listeners.ClickHandelEvent;
+import de.illegalaccess.achievmentsystem.listeners.PlayerJoinEvent;
+import de.illegalaccess.achievmentsystem.mysql.MySQLCreate;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;

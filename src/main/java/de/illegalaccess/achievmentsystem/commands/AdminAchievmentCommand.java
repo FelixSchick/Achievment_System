@@ -1,6 +1,6 @@
-package de.illgealaccess.achievmentsystem.commands;
+package de.illegalaccess.achievmentsystem.commands;
 
-import de.illgealaccess.achievmentsystem.mysql.AchievmentManager;
+import de.illegalaccess.achievmentsystem.mysql.AchievmentManager;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
