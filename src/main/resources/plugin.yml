@@ -6,5 +6,4 @@ authors: [ IllegalAccess ]
 description: This is a Plugin for Custom Achievment
 commands:
   AdminAchievment:
-    description: for admins
   Achievment:
